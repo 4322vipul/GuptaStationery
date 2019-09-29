@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "380718884587",
+    "firebase_url": "https://gupta-stationary-3fefd.firebaseio.com",
+    "project_id": "gupta-stationary-3fefd",
+    "storage_bucket": "gupta-stationary-3fefd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380718884587:android:a732ba338835b3e0",
+        "android_client_info": {
+          "package_name": "com.aimheadshot.guptastationery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380718884587-3o2vf8nljjhlksjg30o9svqpr4ucnov7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aimheadshot.guptastationery",
+            "certificate_hash": "ade7d41fc330e6a0e5d8eeea85204472616c9b8c"
+          }
+        },
+        {
+          "client_id": "380718884587-iu3ojf18kuotloa66rhlmik11m2dfbdo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU0axXR_4xYyS5JFec0YCgGbuxahvGPwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380718884587-iu3ojf18kuotloa66rhlmik11m2dfbdo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
