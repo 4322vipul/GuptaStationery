@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/bas_image" />
+
+        <ListView
+        android:layout_width="390dp"
+        android:layout_marginTop="120dp"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="0.5dp"
+        android:layout_height="370dp"
+        android:padding="5dp"
+        android:elevation="2dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/listView"
+        android:background="#dcf8c6"
+        android:layout_gravity="center_horizontal" >
+
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total : ₹"
+        android:layout_below="@+id/listView"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/textTotal"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="116dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/listView"
+        android:layout_marginTop="33dp"
+        android:text="Total money"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/TextViewTotal"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textTotal"
+        android:layout_weight="0.01" />
+
+    <Button
+        android:id="@+id/confirm_order_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/name"
+        android:background="@color/colorPrimary"
+        android:text="Confirm order" />
+
+    </RelativeLayout>
+
+    </LinearLayout>
